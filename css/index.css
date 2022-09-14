@@ -1,0 +1,24 @@
+.header_navbar,
+.navbar {
+    background-color: #353a40 !important;
+}
+
+.navbar img {
+    max-height: 75px;
+}
+
+.texto_imagen {
+    position: absolute;
+    right: 15%;
+    bottom: 1.25rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+}
+
+.opacity {
+    background: #000;
+    opacity: 0.5;
+}
