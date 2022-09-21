@@ -18,7 +18,37 @@
     text-align: center;
 }
 
-.opacity {
-    background: #000;
-    opacity: 0.5;
+.mask {
+    background-color: rgba(0, 0, 0, 0.6);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.caja-banner {
+    background-image: url(../images/hawaii.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+}
+
+.caja-banner-texto {
+    width: 50%;
+    text-align: right;
+}
+
+@media only screen and (max-width: 600px) {
+    main>div {
+        height: 100%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    main>div {
+        height: 100vh;
+    }
 }
