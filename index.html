@@ -39,7 +39,7 @@
                             <a class="nav-link" href="#">Convi&eacute;rtete en orador</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-success" href="#">Comprar tickets</a>
+                            <a class="nav-link text-success" href="#comprar_tickets">Comprar tickets</a>
                         </li>
                     </ul>
                 </div>
@@ -183,6 +183,132 @@
                             <div class="row mt-3">
                                 <div class="col-md-12">
                                     <input type="submit" class="btn btn-custom btn-lg btn-block" value="Enviar"
+                                        style="width: 100%;">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- NUEVA SECCION TICKETS -->
+        <section id="comprar_tickets">
+            <div class="container">
+                <div class="row row-cols-1 row-cols-md-3 text-center g-1">
+                    <div class="col">
+                        <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                            <div class="card-body">
+                                <h3 class="card-title pricing-card-title">Estudiante</h3>
+                                <ul class="list-unstyled mt-3 mb-4">
+                                    <li>Tienen un descuento</li>
+                                    <li class="p-3">
+                                        <h3 class="card-title pricing-card-title">80%
+                                        </h3>
+                                    </li>
+                                    <li>* presentar documentaci&oacute;n</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card mb-4 rounded-3 shadow-sm border-success">
+                            <div class="card-body">
+                                <h3 class="card-title pricing-card-title">Trainee</h3>
+                                <ul class="list-unstyled mt-3 mb-4">
+                                    <li>Tienen un descuento</li>
+                                    <li class="p-3">
+                                        <h3 class="card-title pricing-card-title">50%
+                                        </h3>
+                                    </li>
+                                    <li>* presentar documentaci&oacute;n</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card mb-4 rounded-3 shadow-sm border-warning">
+                            <div class="card-body">
+                                <h3 class="card-title pricing-card-title">Junior</h3>
+                                <ul class="list-unstyled mt-3 mb-4">
+                                    <li>Tienen un descuento</li>
+                                    <li class="p-3">
+                                        <h3 class="card-title pricing-card-title">15%
+                                        </h3>
+                                    </li>
+                                    <li>* presentar documentaci&oacute;n</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="px-4 py-1 my-1 text-center">
+                    <div class="col-lg-6 mx-auto">
+                        <p class="lead mb-1">VENTA</p>
+                        <h1 class="display-5 fw-light">VALOR DE TICKET $200</h1>
+                    </div>
+                </div>
+                <div class="row row-cols-1 mb-3">
+                    <div class="col mx-auto">
+                        <form id="ticket-form" role="form">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input id="form_name" type="text" name="name" class="form-control"
+                                            placeholder="Nombre" required="required">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input id="form_lastname" type="text" name="surname" class="form-control"
+                                            placeholder="Apellido" required="required">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input id="form_email" type="email" name="name" class="form-control"
+                                            placeholder="Correo" required="required">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label class="form-label">Cantidad</label>
+                                        <input id="form_name" type="text" name="name" class="form-control"
+                                            placeholder="Cantidad" required="required">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label class="form-label">Categor&iacute;a</label>
+                                        <select class="form-control">
+                                            <option>Estudiante</option>
+                                            <option>Trainee</option>
+                                            <option>Junior</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mt-5">
+                                <div class="col-md-12">
+                                    <div class="alert alert-primary" role="alert" id="monto_total">
+                                        Total a Pagar: $
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mt-5">
+                                <div class="col-md-6">
+                                    <input type="button" class="btn btn-custom btn-lg btn-block" value="Borrar"
+                                        style="width: 100%;">
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="submit" class="btn btn-custom btn-lg btn-block" value="Resumen"
                                         style="width: 100%;">
                                 </div>
                             </div>

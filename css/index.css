@@ -81,3 +81,7 @@ footer {
 body {
     overflow-x: hidden;
 }
+
+#comprar_tickets .container{
+    max-width: 960px;
+}
